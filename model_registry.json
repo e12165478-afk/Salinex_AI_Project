@@ -1,0 +1,25 @@
+{
+    "active_version": "v1.0.0",
+    "last_updated": "2026-08-01 10:56:00",
+    "models": {
+        "v1.0.0": {
+            "version": "v1.0.0",
+            "created_at": "2026-08-01 01:27:00",
+            "description": "Ensemble ML Baseline (RandomForest + GradientBoosting)",
+            "algorithms": [
+                "RandomForestRegressor",
+                "GradientBoostingRegressor"
+            ],
+            "metrics": {
+                "r2_score": 0.945,
+                "rmse": 1.28
+            },
+            "status": "active",
+            "files": {
+                "rf_model": "rf_model.pkl",
+                "gb_model": "gb_model.pkl",
+                "metadata": "model_metadata.pkl"
+            }
+        }
+    }
+}
